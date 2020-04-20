@@ -135,18 +135,18 @@ In each of these tabs, one entity (row) is assigned an ID. For example:
 
   - The first few fields of the `DONOR ORGANISM` tab would look like this:
   
-![Donor organism tab](/assets/images/spreadsheet_quickguide/donor_organism_tab.png)
+![Donor organism tab](../assets/images/spreadsheet_quickguide/donor_organism_tab.png)
 
   - Link ‘donor1_kidney’ to ‘donor1’ by entering ‘donor1’ in the `INPUT DONOR
     ORGANISM ID` column in the `Specimen from organism` tab.
     
-![Specimen from organism tab](/assets/images/spreadsheet_quickguide/specimen_from_organism_tab.png)
+![Specimen from organism tab](../assets/images/spreadsheet_quickguide/specimen_from_organism_tab.png)
 
   - Link ‘donor1_kidney_cells’ to ‘donor1_kidney’ by entering ‘donor1_kidney’ in the
     `INPUT SPECIMEN FROM ORGANISM ID` column in the `Cell suspension`
     tab.
     
-![Cell suspension tab](/assets/images/spreadsheet_quickguide/cell_suspension_tab.png)
+![Cell suspension tab](../assets/images/spreadsheet_quickguide/cell_suspension_tab.png)
 
   - Link the set of sequencing files; 
       - ‘donor1_kidney_I1.fastq.gz’ 
@@ -156,7 +156,7 @@ In each of these tabs, one entity (row) is assigned an ID. For example:
      to ‘donor_1_kidney_cells’ by entering ‘donor1_kidney_cells’ in the 
      `INPUT CELL SUSPENSION ID` column in the `Sequence file` tab.
     
-![Sequence file tab](/assets/images/spreadsheet_quickguide/sequence_file_tab.png)
+![Sequence file tab](../assets/images/spreadsheet_quickguide/sequence_file_tab.png)
 
 ### Linking biomaterials and protocols
 
@@ -170,7 +170,7 @@ respective `ID` columns in the biomaterial tabs.
 For example, consider a sequencing experiment that followed a dissociation
 protocol to produce a cell suspension from a kidney tissue sample.
 
-![Protocol linking](/assets/images/spreadsheet_quickguide/protocols_linking.png)
+![Protocol linking](../assets/images/spreadsheet_quickguide/protocols_linking.png)
 
 In each of these tabs, one entity is assigned an ID. For example:
 ‘donor1_kidney’, ‘enzymatic_dissociation’, and ‘donor1_kidney_cells’,
@@ -179,14 +179,14 @@ respectively.
   - In this case the first few fields of the `Dissociation protocol` tab 
   would look like this:
   
-  ![Dissociation protocol tab](/assets/images/spreadsheet_quickguide/dissociation_protocol_tab.png)
+  ![Dissociation protocol tab](../assets/images/spreadsheet_quickguide/dissociation_protocol_tab.png)
   
   - We can link ‘donor1_kidney_cells’ to ‘enzymatic_dissociation’ (the
     protocol that derived the cell suspension) by entering
     ‘enzymatic_dissociation’ in the `DISSOCIATION PROTOCOL ID` column
     in the `Cell suspension` tab.
     
-  ![Cell suspension tab](/assets/images/spreadsheet_quickguide/cell_suspension_tab.png)
+  ![Cell suspension tab](../assets/images/spreadsheet_quickguide/cell_suspension_tab.png)
   
 You can then follow the same process for linking other protocols, such as the 
 `LIBRARY PREPARATION PROTOCOL ID` and `SEQUENCING PROTOCOL ID`s within the `Sequence file` tab
@@ -195,16 +195,16 @@ to describe the process between `Cell suspension` and `Sequence file`.
 In the `Library preparation protocol` tab, fill in details about the library preparation 
 protocol.
 
-![Library preparation tab](/assets/images/spreadsheet_quickguide/library_preparation_protocol_tab.png)
+![Library preparation tab](../assets/images/spreadsheet_quickguide/library_preparation_protocol_tab.png)
 
 In the `Sequencing protocol` tab, fill in details about how the library was sequenced
 
-![Sequencing protocol tab](/assets/images/spreadsheet_quickguide/sequencing_protocol_tab.png)
+![Sequencing protocol tab](../assets/images/spreadsheet_quickguide/sequencing_protocol_tab.png)
 
 In the `Sequence file` tab, link the `FILE NAME` to the `INPUT CELL SUSPENSION` with the 
 relevant `LIBRARY PREPARATION PROTOCOL ID` and `SEQUENCING PROTOCOL ID`.
 
-![Sequencing file tab](/assets/images/spreadsheet_quickguide/equence_file_tab.png)
+![Sequencing file tab](../assets/images/spreadsheet_quickguide/equence_file_tab.png)
 
 ## How to indicate a library preparation was sequenced more than once
 
