@@ -242,5 +242,5 @@ Schema Github repo:
 
 Google Sheets and Excel spreadsheets are used to gather metadata about your project. This document is a brief walkthrough to help you get started filling out an HCA metadata spreadsheet.
 
-If you have any questions at any stage while filling out the spreadsheet, please contact the data wrangling team at: \
+If you have any questions at any stage while filling out the spreadsheet, please contact the data wrangling team at: 
 [`wrangler-team@data.humancellatlas.org`](mailto:wrangler-team@data.humancellatlas.org).
