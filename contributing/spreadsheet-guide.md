@@ -127,7 +127,7 @@ entities together.
 For example, consider an experiment with entities that are linked as
 follows:
 
-![Biomaterial flow](/assets/images/spreadsheet_quickguide/biomaterials_flow.png)
+![Biomaterial flow](../assets/images/spreadsheet_quickguide/biomaterials_flow.png)
 
 In each of these tabs, one entity (row) is assigned an ID. For example:
 ‘donor1’, ‘donor1_kidney’, ‘donor1_kidney_cells’, and
