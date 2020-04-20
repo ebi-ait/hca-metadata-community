@@ -204,7 +204,7 @@ In the `Sequencing protocol` tab, fill in details about how the library was sequ
 In the `Sequence file` tab, link the `FILE NAME` to the `INPUT CELL SUSPENSION` with the 
 relevant `LIBRARY PREPARATION PROTOCOL ID` and `SEQUENCING PROTOCOL ID`.
 
-![Sequencing file tab](../assets/images/spreadsheet_quickguide/equence_file_tab.png)
+![Sequencing file tab](../assets/images/spreadsheet_quickguide/sequence_file_tab.png)
 
 ## How to indicate a library preparation was sequenced more than once
 
