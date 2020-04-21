@@ -1,5 +1,5 @@
 title: "HCA Metadata Community Space"
 site_url: https://ebi-ait.github.io/hca-metadata-community/
-# remote_theme: pmarsceill/just-the-docs
-remote_theme: leakyabstractions/pretty-docs
+remote_theme: pmarsceill/just-the-docs
+# remote_theme: leakyabstractions/pretty-docs
 search_enabled: true
