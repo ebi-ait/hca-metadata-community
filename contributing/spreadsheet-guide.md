@@ -4,6 +4,14 @@ has_children: false
 parent: Contributing
 nav_order: 1
 ---
+# Spreadsheet Quick Guide
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 Google Sheets and Excel spreadsheets are used to gather metadata about
 your project. This document is a brief walkthrough to help you get
