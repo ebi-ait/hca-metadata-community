@@ -123,7 +123,7 @@ $content-width: 1200px;
 //$media-queries: (
 //xs: 320px,
 //sm: 500px,
-//md: $content-width,
+md: $content-width + $nav-width,
 //lg: $content-width + $nav-width,
 //xl: 1600px
 //);
