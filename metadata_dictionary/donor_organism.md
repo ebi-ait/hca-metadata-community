@@ -4,6 +4,11 @@ has_children: false
 parent: Metadata dictionary
 nav_order: 1
 ---
+# Biomaterial schema diagrams
+{: .no_toc }
+
+Below you will find diagrammatic representations of each type of Biomaterial schema. Core, module and type boxes link to their json schema hosted on github. The ontology boxes link to the EBI OLS for that ontology.
+
 ## Table of contents
 {: .no_toc .text-delta }
 
