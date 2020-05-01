@@ -1,6 +1,6 @@
 ---
 title: HCA metadata community space
-nav_exclude: true
+nav_exclude: false
 has_children: false
 ---
 
