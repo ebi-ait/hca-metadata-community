@@ -26,7 +26,11 @@ Reflecting on the first 6 months of HCA Metadata Community calls
 
 May 4th, 4pm BST, 11am EDT, 8am PDT
 
-[Join the call](https://bluejeans.com/574050733){: .btn .btn-blue }
+### Where
+
+Calls take place virtually on the [BlueJeans](https://www.bluejeans.com/) video conferencing platform. Meetings can be joined via the browser or you can download and install the [BlueJeans app](https://www.bluejeans.com/downloads).
+
+[Join the call on BlueJeans](https://bluejeans.com/574050733){: .btn .btn-blue }
 
 To call in via Telephone, use the meeting code `574050733` and see: 
 [BlueJeans Telephone Numbers](https://www.bluejeans.com/premium-numbers){: .btn .btn-purple }
