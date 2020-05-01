@@ -2,7 +2,7 @@
 title: Metadata dictionary
 has_children: false
 parent: HCA Metadata standard
-nav_order: 3
+nav_order: 1
 ---
 
 # Metadata Dictionary
