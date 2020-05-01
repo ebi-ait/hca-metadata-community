@@ -6,12 +6,10 @@ nav_order: 2
 
 <script src="https://kit.fontawesome.com/fc66878563.js" crossorigin="anonymous"></script>
 
-# Lots of information about ontologies
+# Ontologies
 
-Test this
+The HCA metadata team uses a dedicated application Ontology - the HCA Ontology or HCAO. 
 
-does this icon work? <i class="fas fa-bezier-curve"></i>
+[<i class="fab fa-searchengin"></i> Search the HCAO](https://www.ebi.ac.uk/ols/ontologies/hcao){: .btn .btn-green }
 
-how about now?
 
-blah
