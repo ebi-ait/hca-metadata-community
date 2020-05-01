@@ -20,7 +20,7 @@ To stay informed about our upcoming calls, please join the mailing list.
 
 ### Topic
 
-Reflecting on the first 6 months of Metadata Community calls
+Reflecting on the first 6 months of HCA Metadata Community calls
 
 ### When
 
@@ -28,7 +28,8 @@ May 4th, 4pm BST, 11am EDT, 8am PDT
 
 [Join the call](https://bluejeans.com/574050733){: .btn .btn-blue }
 
-To call in via Telephone see: [BlueJeans Telephone Numbers](https://www.bluejeans.com/premium-numbers){: .btn .btn-purple }
+To call in via Telephone, use the meeting code `574050733` and see: 
+[BlueJeans Telephone Numbers](https://www.bluejeans.com/premium-numbers){: .btn .btn-purple }
 
 ### Presenters
 
