@@ -8,5 +8,6 @@ nav_order: 2
 
 Test this
 
+does this icon work? <i class="fas fa-bezier-curve"></i>
 
 blah
