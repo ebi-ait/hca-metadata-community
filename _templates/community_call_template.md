@@ -8,7 +8,7 @@ parent: Community Calls
 
 *Presenters:* 
 
-## <i class="fas fa-chalkboard-teacher"></i>Slides:
+## <i class="fas fa-chalkboard-teacher"></i> Slides:
 - [TITLE - PRESENTER](LINK)
 
 ## <i class="fas fa-video"></i> Video recording:
