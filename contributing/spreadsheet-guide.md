@@ -4,6 +4,7 @@ has_children: false
 parent: Contributing
 nav_order: 1
 ---
+<script src="https://kit.fontawesome.com/fc66878563.js" crossorigin="anonymous"></script>
 # Spreadsheet Quick Guide
 {: .no_toc }
 
