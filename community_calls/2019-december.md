@@ -1,19 +1,19 @@
 ---
 layout: default
-title: 2019 December
+title: 2019-12 Lung
 parent: Community Calls
 nav_order: 1
 ---
 
-# An update on the Lung Cell Atlas
+# December Community Call - Lung
 
 *Presenters:* Martijn Nawijn, Lisa Sikkema
 
-*Slides:*
+## Slides:
 - [Overview of the HCA-Lung initiative - Martijn Nawijn](https://drive.google.com/open?id=1l4dpYCv92dML0ZFQVEqByeq00xm0npPZ)
 - [Lung Data structure, analysis, pipelines, and metadata details - Lisa Sikkema](https://drive.google.com/open?id=1yEvCujuBUnWoLMU2NyR7NgLqmo-GNmBp)
 
-*Video recording:*
+## Video recording:
 <iframe src="https://drive.google.com/file/d/1C9GS2V24vvDHr8BefJre1YHwBMQV6K3o/preview" width="640" height="480"></iframe>
 
 ## Summary of the December community call
