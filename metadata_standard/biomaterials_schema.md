@@ -1,7 +1,7 @@
 ---
 title: Biomaterials
 has_children: false
-parent: Metadata dictionary
+parent: HCA Metadata standard
 nav_order: 1
 ---
 # Biomaterial schema diagrams
