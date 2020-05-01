@@ -16,7 +16,25 @@ To stay informed about our upcoming calls, please join the mailing list.
 
 [Join the mailing list](https://forms.gle/mwcKuD5WDR17aea69){: .btn .btn-blue }
 
-## Next call: May 4th, 4pm BST, 11am EDT, 8am PDT
+## Next call
+
+### Topic
+
+Reflecting on the first 6 months of Metadata Community calls
+
+### When
+
+May 4th, 4pm BST, 11am EDT, 8am PDT
+
+[Join the call](https://bluejeans.com/574050733){: .btn .btn-blue }
+
+To call in via Telephone see: [BlueJeans Telephone Numbers](https://www.bluejeans.com/premium-numbers){: .btn .btn-purple }
+
+### Presenters
+
+Zina Perova and Marion Shadbolt (EMBL-EBI HCA DCP)
+
+
 
 Calls are recorded and summarised. See links below for summaries of the calls to date, or access the full rolling agenda here: [Rolling agenda doc](https://docs.google.com/document/d/1SNKp4MffHJy2hCVQKw7xk5PXRcuN5EUozuA8N3xnTis/edit#heading=h.skfkpk6kkiqx)
 
