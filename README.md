@@ -1,5 +1,5 @@
 ---
-title: home
+title: HCA metadata community space
 nav_exclude: true
 has_children: false
 ---
