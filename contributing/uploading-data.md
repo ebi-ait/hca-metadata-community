@@ -27,7 +27,7 @@ nav_order: 2
 
     Keep these credentials safe and do not pass them to users who should not have access to upload files or see the files you have uploaded. In particular, do not record these credentials in any public place such as a public Github repository.
 
-If you are missing any of the prerequisites above, please contact wrangler-team@data.humancellatlas.org for guidance. 
+If you are missing any of the prerequisites above, please contact [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org) for guidance. 
 
 ## Installation
 
@@ -90,8 +90,6 @@ pip3 install hca-util
 You can now continue with configuring the tool.
 
 ## Configuration
-
-
 
 The first time you use the tool it will need to be configured. The configuration creates an AWS profile called `hca-util` that will give you the appropriate permissions to upload to your upload area. 
 
@@ -219,11 +217,11 @@ $ hca-util list
 No item
 ```
 
-If you cannot delete files from your upload area but would like to, please email wrangler-team@data.humancellatlas.org.
+If you cannot delete files from your upload area but would like to, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org).
 
 ## Help!
 
-If you have any issues with uploading files or using the hca-util tool, please email wrangler-team@data.humancellatlas.org.
+If you have any issues with uploading files or using the hca-util tool, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org).
 
 Source code for tool can be found on github here: https://github.com/ebi-ait/hca-util
 
