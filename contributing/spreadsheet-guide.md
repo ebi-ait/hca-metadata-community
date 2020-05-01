@@ -235,6 +235,15 @@ both generated from the same library preparation, and files
 file102\_R1.fastq.gz and file103\_R1.fastq.gz were both generated from a
 different library preparation.
 
+## Example spreadsheets
+
+To see fully worked examples of filled in spreadsheets for a 10X and SmartSeq2 experiment, please use the buttons below:
+
+
+[<i class="fas fa-download"></i> Download 10X example spreadsheet](https://github.com/ebi-ait/hca-metadata-community/raw/gh-pages/assets/ssheets/Empty_example_10x.xlsx){: .btn .btn-green }
+
+[<i class="fas fa-download"></i> Download SS2 example spreadsheet](https://github.com/ebi-ait/hca-metadata-community/raw/gh-pages/assets/ssheets/Empty_example_SS2.xlsx){: .btn .btn-green }
+
 ## Additional resources about HCA metadata
 
   - [Overview of Metadata
