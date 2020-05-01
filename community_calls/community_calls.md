@@ -3,7 +3,7 @@ title: Community Calls
 has_children: true
 nav_order: 4
 ---
-
+<script src="https://kit.fontawesome.com/fc66878563.js" crossorigin="anonymous"></script>
 # Community calls
 
 HCA Metadata Community Calls are held monthly usually on the first Monday of the month. 
@@ -18,15 +18,15 @@ To stay informed about our upcoming calls, please join the mailing list.
 
 ## Next call
 
-### Topic
+### <i class="fas fa-info-circle"></i> Topic
 
 Reflecting on the first 6 months of HCA Metadata Community calls
 
-### When
+### <i class="fas fa-calendar-alt"></i> When
 
 May 4th, 4pm BST, 11am EDT, 8am PDT
 
-### Where
+### <i class="fas fa-map-marker-alt"></i> Where
 
 Calls take place virtually on the [BlueJeans](https://www.bluejeans.com/) video conferencing platform. Meetings can be joined via the browser or you can download and install the [BlueJeans app](https://www.bluejeans.com/downloads).
 
