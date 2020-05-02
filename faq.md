@@ -11,8 +11,8 @@ The submission process starts with an email to the wrangling team ([wrangler-tea
  
 ## What metadata does the HCA collect?
 We collect all the metadata under a spreadsheet for ease of input:
--     Example submissions can be found here: [Spreadsheet templates](contributing/spreadsheet-templates.md)
--     A more detailed explanation on the fields we collect can be found here: [Metadata dictionary](metadata_standard/metadata_dictionary.md)
+- Example submissions can be found here: [Spreadsheet templates](contributing/spreadsheet-templates.md)
+- A more detailed explanation on the fields we collect can be found here: [Metadata dictionary](metadata_standard/metadata_dictionary.md)
  
 ## What type of sequencing data are you accepting?
 We currently accept human and mouse single cell raw sequencing data (fastq). These files have to be demultiplexed per sample, with consent for public sharing and should not contain data from any other organism. More details on data suitability: Data suitability.
