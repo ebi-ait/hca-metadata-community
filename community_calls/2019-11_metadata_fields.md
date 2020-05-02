@@ -1,20 +1,28 @@
 ---
 layout: default
-title: 2019-12 Lung
+title: 2019-11 Metadata fields
 parent: Community Calls
 ---
 <script src="https://kit.fontawesome.com/fc66878563.js" crossorigin="anonymous"></script>
-# <MONTH> Community Call - <THEME>
+# November Community Call - Valuable Metadata Fields
 
 *Presenters:* 
+_Marc Halushka_ - John Hopkins Univeristy School of Medicine
+_Zina Perova_  - EMBL-EBI, HCA DCP
+_Matt Green_ - Gene expression Atlas - EMBL-EBI
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides:
-- [TITLE - PRESENTER](LINK)
+- [Mapping fields between MBC Autopsy Metadata and HCA metadata - a model approach to integrating metadata capture - Marc Halushka & Zina Perova](https://docs.google.com/presentation/d/1YCbQvyZgp4Oicnc2mzv1d4Gevv2xcDyuLf43Tsp0IYY/edit#slide=id.p)
+- [Single Cell Expression Atlas: Programmatically Mapping and Consuming HCA DCP Metadata - Matt Green](https://drive.google.com/open?id=1QA66gBMPY-JCGEf0Vpc4moiUwL2mmpsh)
 
 ## <i class="fas fa-video"></i> Video recording:
 <iframe src="<https://drive.google.com/file/d/<GOOGLE ID>/preview" width="640" height="480"></iframe>
 
-## Summary of the <MONTH> community call
+## <i class="fas fa-external-link-square-alt"></i> Links:
+
+- [Füllgrabe et al. 2019 *Guidelines for reporting single-cell RNA-Seq experiments*](https://arxiv.org/abs/1910.14623)
+
+## Summary of the November, 2019 community call
 
 ### <i class="fas fa-search"></i> Key learnings
 
