@@ -1,7 +1,7 @@
 ---
 title: Spreadsheet templates
 has_children: false
-parent: Contributing
+parent: Contributing data
 nav_order: 3
 ---
 <script src="https://kit.fontawesome.com/fc66878563.js" crossorigin="anonymous"></script>
