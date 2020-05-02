@@ -32,7 +32,8 @@ Calls take place virtually on the [BlueJeans](https://www.bluejeans.com/) video 
 
 [<i class="far fa-hand-point-up"></i> Join the call on BlueJeans](https://bluejeans.com/574050733){: .btn .btn-blue }
 
-To call in via Telephone, use the meeting code `574050733` and see: 
+To call in via Telephone, use the meeting code `574050733` and see:
+
 [<i class="fas fa-phone"></i> BlueJeans Telephone Numbers](https://www.bluejeans.com/premium-numbers){: .btn .btn-purple }
 
 ### <i class="fas fa-chalkboard-teacher"></i> Presenters
