@@ -1,10 +1,10 @@
 ---
-title: Contributing
+title: Contributing data
 has_children: true
 nav_order: 6
 ---
 
-# Contributing
+# Contributing data to the DCP
 
 See sub-sections for more specific information.
 
