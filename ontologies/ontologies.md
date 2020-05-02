@@ -16,9 +16,9 @@ The HCA metadata team uses a dedicated application Ontology - the HCA Ontology o
 
 | Field type          | Ontology                       | Example fields                                                  |
 |---------------------|--------------------------------|-----------------------------------------------------------------|
-| Anatomical location | Uber-anatomy ontology ([UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon)) | specimen_from_organism.organ <\br>specimen_from_organism.organ_parts |
+| Anatomical location | Uber-anatomy ontology ([UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon)) | specimen_from_organism.organ<br/>specimen_from_organism.organ_parts |
 | Cell types          | Cell ontology ([CL](https://www.ebi.ac.uk/ols/ontologies/cl))             | cell_suspension.selected_cell_types                             |
-| Experimental factors| Experimental Factor Ontology ([EFO](https://www.ebi.ac.uk/ols/ontologies/efo))             | dissociation_protocol.method </br>library_preparational_protocol.library_construction_method          |
+| Experimental factors| Experimental Factor Ontology ([EFO](https://www.ebi.ac.uk/ols/ontologies/efo))             | dissociation_protocol.method<br/>library_preparation_protocol.library_construction_method          |
 | Ethnicity           | Human Ancestry Ontology ([HANCESTRO](https://www.ebi.ac.uk/ols/ontologies/hancestro))             | donor_organism.ethnicity                                         |
 | Units               | Units of measurement Ontology ([UO](https://www.ebi.ac.uk/ols/ontologies/uo))             | donor_organism.age_unit                                         |
 | Species             | NCBI organismal classification ([NCBITaxon](https://www.ebi.ac.uk/ols/ontologies/ncbitaxon))             | donor_organism.biomaterial_core.genus_species                                         |
