@@ -8,11 +8,11 @@ parent: Community Calls
 
 *Presenters:* 
 
-_Marc Halushka_ - John Hopkins Univeristy School of Medicine
+**Marc Halushka** - John Hopkins Univeristy School of Medicine
 
-_Zina Perova_  - EMBL-EBI, HCA DCP
+**Zina Perova**  - EMBL-EBI, HCA DCP
 
-_Matt Green_ - Gene expression Atlas - EMBL-EBI
+**Matt Green** - Gene expression Atlas - EMBL-EBI
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides:
 - [Mapping fields between MBC Autopsy Metadata and HCA metadata - a model approach to integrating metadata capture - Marc Halushka & Zina Perova](https://docs.google.com/presentation/d/1YCbQvyZgp4Oicnc2mzv1d4Gevv2xcDyuLf43Tsp0IYY/edit#slide=id.p)
@@ -43,8 +43,5 @@ _Matt Green_ - Gene expression Atlas - EMBL-EBI
 - Call for the community to submit their metadata to identify needed fields and rank based on Importance - from Contributor’s view, Importance - from Consumer’s view, Ease of obtaining - then distribute it in user-friendly form.
 - Find out about other efforts on metadata harmonisation (in other Consortia for example, mentioned efforts in the US, NIH)
 - Make HCA metadata standard easily accessible (Action plan - Metadata standard webpage accessible for the community!)
-
-
-## Detailed notes
 
 [<i class="fab fa-readme"></i> Read detailed notes](<GOOGLE LINK>){: .btn .btn-green }
