@@ -19,7 +19,7 @@ _Matt Green_ - Gene expression Atlas - EMBL-EBI
 - [Single Cell Expression Atlas: Programmatically Mapping and Consuming HCA DCP Metadata - Matt Green](https://drive.google.com/open?id=1QA66gBMPY-JCGEf0Vpc4moiUwL2mmpsh)
 
 ## <i class="fas fa-video"></i> Video recording:
-<iframe src="https://drive.google.com/drive/folders/1boJlBf7ZBkY9LvxaTxy_8Mu3nOB2pY_M/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1jXEkJRE-My6yMrFnCUDMZrfdBusqJRlj/preview" width="640" height="480"></iframe>
 
 ## <i class="fas fa-external-link-square-alt"></i> Links:
 
