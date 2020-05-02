@@ -1,7 +1,7 @@
 ---
 title: Uploading data
 has_children: false
-parent: Contributing
+parent: Contributing data
 nav_order: 2
 ---
 
