@@ -1,8 +1,8 @@
 ---
 title: Biomaterials
 has_children: false
-parent: HCA Metadata standard
-nav_order: 2
+parent: Schema diagrams
+nav_order: 1
 ---
 # Biomaterial schema diagrams
 {: .no_toc }
