@@ -13,3 +13,5 @@ nav_order: 1
 <iframe id="example1" src="https://mshadbolt-hca-ebi.shinyapps.io/meta-comm-dict/" style="border: none; width: 100%; height: 1000px" frameborder="0"></iframe>
 </body>
 </html>
+
+[View in full screen](https://mshadbolt-hca-ebi.shinyapps.io/meta-comm-dict/){: .btn .btn-blue }
