@@ -25,7 +25,7 @@ parent: Community Calls
 
 - [Füllgrabe et al. 2019 *Guidelines for reporting single-cell RNA-Seq experiments*](https://arxiv.org/abs/1910.14623)
 
-## Summary of the November, 2019 community call
+## Summary
 
 ### <i class="fas fa-search"></i> Key learnings
 
