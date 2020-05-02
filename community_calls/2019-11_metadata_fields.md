@@ -2,6 +2,7 @@
 layout: default
 title: 2019-11 Metadata fields
 parent: Community Calls
+nav_order: 1
 ---
 <script src="https://kit.fontawesome.com/fc66878563.js" crossorigin="anonymous"></script>
 # November Community Call - Valuable Metadata Fields
