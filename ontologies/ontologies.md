@@ -27,7 +27,7 @@ The HCA metadata team uses a dedicated application Ontology - the HCA Ontology o
 | Diseases | Mondo Disease Ontology ([MONDO](https://www.ebi.ac.uk/ols/ontologies/mondo))             | donor_organism.diseases|
 | File content | Bioinformatics operations, data types, formats, identifiers and topics ([EDAM](https://www.ebi.ac.uk/ols/ontologies/edam))             | sequence_file.file_core.content_description|
 | Chemicals & Molecules | Chemical Entities of Biological Interest ([CHEBI](https://www.ebi.ac.uk/ols/ontologies/chebi))      | library_preparation_protocol.input_nucleic_acid_molecule|
-| Imaging techniques | Biological Imaging Methods Ontology ([CHEBI](https://www.ebi.ac.uk/ols/ontologies/fbbi))      | imaging_protocol.microscopy_technique|
+| Imaging techniques | Biological Imaging Methods Ontology ([FBBI](https://www.ebi.ac.uk/ols/ontologies/fbbi))      | imaging_protocol.microscopy_technique|
 
 
 
