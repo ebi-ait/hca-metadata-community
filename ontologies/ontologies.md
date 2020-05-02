@@ -22,7 +22,7 @@ The HCA metadata team uses a dedicated application Ontology - the HCA Ontology o
 | Ethnicity           | Human Ancestry Ontology ([HANCESTRO](https://www.ebi.ac.uk/ols/ontologies/hancestro))             | donor_organism.ethnicity                                         |
 | Units               | Units of measurement Ontology ([UO](https://www.ebi.ac.uk/ols/ontologies/uo))             | donor_organism.age_unit                                         |
 | Species             | NCBI organismal classification ([NCBITaxon](https://www.ebi.ac.uk/ols/ontologies/ncbitaxon))             | donor_organism.biomaterial_core.genus_species                                         |
-| Developmental stage (human) | Human Develepmental Stages ([HSAPDV](https://www.ebi.ac.uk/ols/ontologies/hsapdv))             | donor_organism.development_stage|
+| Developmental stage (human) | Human Developmental Stages ([HSAPDV](https://www.ebi.ac.uk/ols/ontologies/hsapdv))             | donor_organism.development_stage|
 | Developmental stage (mouse) | Experimental Factor Ontology ([EFO](https://www.ebi.ac.uk/ols/ontologies/efo))             | donor_organism.development_stage|
 | Diseases | Mondo Disease Ontology ([MONDO](https://www.ebi.ac.uk/ols/ontologies/mondo))             | donor_organism.diseases|
 | File content | Bioinformatics operations, data types, formats, identifiers and topics ([EDAM](https://www.ebi.ac.uk/ols/ontologies/edam))             | sequence_file.file_core.content_description|
