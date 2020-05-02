@@ -7,8 +7,11 @@ parent: Community Calls
 # November Community Call - Valuable Metadata Fields
 
 *Presenters:* 
+
 _Marc Halushka_ - John Hopkins Univeristy School of Medicine
+
 _Zina Perova_  - EMBL-EBI, HCA DCP
+
 _Matt Green_ - Gene expression Atlas - EMBL-EBI
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides:
