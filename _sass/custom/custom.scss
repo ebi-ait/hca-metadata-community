@@ -124,6 +124,6 @@ $media-queries: (
 xs: 320px,
 sm: 500px,
 md: $content-width - $nav-width-md,
-lg: $content-width + $nav-width,
+lg: $content-width,
 xl: 1600px
 );
