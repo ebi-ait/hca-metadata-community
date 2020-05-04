@@ -45,4 +45,4 @@ nav_order: 1
 - Find out about other efforts on metadata harmonisation (in other Consortia for example, mentioned efforts in the US, NIH)
 - Make HCA metadata standard easily accessible (Action plan - Metadata standard webpage accessible for the community!)
 
-[<i class="fab fa-readme"></i> Read detailed notes](<GOOGLE LINK>){: .btn .btn-green }
+[<i class="fab fa-readme"></i> Read detailed notes](https://docs.google.com/document/d/1SNKp4MffHJy2hCVQKw7xk5PXRcuN5EUozuA8N3xnTis/edit#heading=h.st9cqyv138hw){: .btn .btn-green }
