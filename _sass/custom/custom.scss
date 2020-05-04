@@ -123,7 +123,7 @@ $content-width: 1000px;
 $media-queries: (
 xs: 320px,
 sm: 500px,
-md: $content-width,
-lg: $content-width,
+md: $content-width + $nav-width-md,
+lg: $content-width + $nav-width,
 xl: 1600px
 );
