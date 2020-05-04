@@ -38,7 +38,7 @@ To call in via Telephone, use the meeting code `574050733` and see:
 
 ### <i class="fas fa-chalkboard-teacher"></i> Presenters
 
-Zina Perova and Marion Shadbolt (EMBL-EBI HCA DCP)
+Zina Perova (EMBL-EBI HCA DCP)
 
 ### <i class="far fa-comments"></i> Outputs
 
