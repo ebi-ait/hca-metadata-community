@@ -111,7 +111,7 @@ $btn-primary-color: $blue-100;
 //$gutter-spacing: $sp-6;
 //$gutter-spacing-sm: $sp-4;
 //$nav-width: 264px;
-//$nav-width-md: 248px;
+$nav-width-md: 248px;
 $content-width: 1000px;
 //$header-height: 60px;
 //$search-results-width: 500px;
@@ -120,10 +120,10 @@ $content-width: 1000px;
 //// Media queries in pixels
 ////
 
-//$media-queries: (
-//xs: 320px,
-//sm: 500px,
-//md: $content-width,
-//lg: $content-width + $nav-width,
-//xl: 1600px
-//);
+$media-queries: (
+xs: 320px,
+sm: 500px,
+md: $content-width - $nav-width-md,
+lg: $content-width + $nav-width,
+xl: 1600px
+);
