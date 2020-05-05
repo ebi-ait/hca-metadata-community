@@ -24,7 +24,7 @@ Reflecting on the first 6 months of HCA Metadata Community calls
 
 ### <i class="fas fa-calendar-alt"></i> When
 
-May 4th, 4pm BST, 11am EDT, 8am PDT
+June 1st, 4pm BST, 11am EDT, 8am PDT
 
 ### <i class="fas fa-map-marker-alt"></i> Where
 
@@ -38,7 +38,7 @@ To call in via Telephone, use the meeting code `574050733` and see:
 
 ### <i class="fas fa-chalkboard-teacher"></i> Presenters
 
-Zina Perova (EMBL-EBI HCA DCP)
+TBA
 
 ### <i class="far fa-comments"></i> Outputs
 
