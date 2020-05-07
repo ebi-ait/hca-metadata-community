@@ -20,7 +20,7 @@ To stay informed about our upcoming calls, please join the mailing list.
 
 ### <i class="fas fa-info-circle"></i> Topic
 
-Reflecting on the first 6 months of HCA Metadata Community calls
+TBA
 
 ### <i class="fas fa-calendar-alt"></i> When
 
