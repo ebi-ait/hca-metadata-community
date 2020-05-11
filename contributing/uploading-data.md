@@ -20,14 +20,14 @@ nav_order: 2
 
 1. Python3 installed on your computer
 1. Basic knowledge of how to navigate the command line and run commands in a terminal, e.g. `cd`, `ls`, `pwd`
-1. Credential information emailed to you by your wrangler. If you don't have the following information, please email [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org) to obtain these credentials.
+1. Credential information emailed to you by your wrangler. If you don't have the following information, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org) to obtain these credentials.
     1. A unique identifier that identifies your personal upload area. This should be kept secure and not shared with others outside your research group. e.g. `72ca5e3f-dacf-427a-a8a4-ecf15789006d`
     1. Your AWS access key e.g. `AKIAI44QH8DHBEXAMPLE`
     1. Your AWS secret key e.g. `je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY`. 
 
     Keep these credentials safe and do not pass them to users who should not have access to upload files or see the files you have uploaded. In particular, do not record these credentials in any public place such as a public Github repository.
 
-If you are missing any of the prerequisites above, please contact [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org) for guidance. 
+If you are missing any of the prerequisites above, please contact [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org) for guidance. 
 
 ## Installation
 
@@ -232,11 +232,11 @@ $ hca-util list
 No item
 ```
 
-If you cannot delete files from your upload area but would like to, please email [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org).
+If you cannot delete files from your upload area but would like to, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org).
 
 ## Help!
 
-If you have any issues with uploading files or using the hca-util tool, please email [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org).
+If you have any issues with uploading files or using the hca-util tool, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org).
 
 Source code for tool can be found on github here: [https://github.com/ebi-ait/hca-util](https://github.com/ebi-ait/hca-util)
 
