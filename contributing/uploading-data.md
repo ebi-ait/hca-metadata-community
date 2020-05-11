@@ -5,7 +5,7 @@ parent: Contributing data
 nav_order: 2
 ---
 
-# Uploading data with `hca-util`
+# Uploading data with hca-util
 {: .no_toc }
 
 ## Table of contents
