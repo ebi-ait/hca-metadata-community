@@ -27,7 +27,7 @@ nav_order: 2
 
     Keep these credentials safe and do not pass them to users who should not have access to upload files or see the files you have uploaded. In particular, do not record these credentials in any public place such as a public Github repository.
 
-If you are missing any of the prerequisites above, please contact [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org) for guidance. 
+If you are missing any of the prerequisites above, please contact wrangler-team@data.humancellatlas.org for guidance. 
 
 ## Installation
 
@@ -55,7 +55,7 @@ pip3 install hca-util
 
 Once installed, you can see the available commands by typing the following command in your terminal. 
 
-```
+```shell script
 hca-util -h
 ```
 
@@ -91,6 +91,8 @@ You can now continue with configuring the tool.
 
 ## Configuration
 
+
+
 The first time you use the tool it will need to be configured. The configuration creates an AWS profile called `hca-util` that will give you the appropriate permissions to upload to your upload area. 
 
 To configure use the following command with the `AWS access key` and `AWS secret key` that you should have received via email.
@@ -125,26 +127,40 @@ You are now ready to upload files to your upload area!
 
 ## Uploading files
 
-Once your upload area is selected you can use the `upload` command upload the files related to your project into the upload area. 
+Once your upload area is selected you can use the `upload` command upload the files related to your project into the upload area. The command works by specifying either a path to a file, a space separated list of paths to files, or a path to a directory. Sub-directories of a provided directory path are ignored.
 
-To upload a single file or space-separated list of files use the `-f` alongside the `upload` command. If files have spaces they must be escaped or enclosed in quotes. This would look something like:
+To upload a single file or space-separated list of files, specify the relative or absolute path to each file after the `upload` command. If files have spaces they must be escaped or enclosed in quotes:
 
 ```
-$ hca-util upload -f /path/to/file/sample1_R1.fastq.gz
+hca-util upload /path/to/file/file1.txt "/path/to/file/file 2.txt"
+```
+
+This could look something like:
+
+```
+$ hca-util upload /path/to/file/sample1_R1.fastq.gz /path/to/file/sample1_R2.fastq.gz
 Uploading...
 /path/to/file/sample1_R1.fastq.gz 2845965046 / 2845965046.0  (100.00%)
+/path/to/file/sample1_R2.fastq.gz 2845965046 / 2845965046.0  (100.00%)
 
-$ hca-util upload -f /path/to/file/sample1_R1.fastq.gz "/path/to/file/dissociation protocol.pdf" /path/to/file/enrichment\ protocol.pdf
+$ hca-util upload /path/to/file/sample1_R1.fastq.gz "/path/to/file/dissociation protocol.pdf" /path/to/file/enrichment\ protocol.pdf
 Uploading...
 /path/to/file/sample1_R1.fastq.gz 2845965046 / 2845965046.0  (100.00%)
 /path/to/file/dissociation protocol.pdf 354 / 354.0  (100.00%)
 /path/to/file/enrichment protocol.pdf 354 / 354.0  (100.00%)
+Successful upload.
 ```
 
-To upload all files in your current working directory, you specify the `-a` flag as follows:
+To upload all files in a directory, specify the path to the directory or use the `.` operator to upload all files in your current working directory:
 
 ```
-$ hca-util upload -a
+hca-util upload .
+```
+
+This would look something like:
+
+```
+$ hca-util upload .
 Uploading...
 sample1_R1.fastq.gz  2845965046 / 2845965046.0  (100.00%)
 sample1_R2.fastq.gz  2845965046 / 2845965046.0  (100.00%)
@@ -168,36 +184,34 @@ hca-util list
 72ca5e3f-dacf-427a-a8a4-ecf15789006d/enrichment protocol.pdf
 ```
 
-By default the upload command won't upload files that have the same name as files already present in the upload area. If you do need to overwrite an uploaded file with a file of the same name, you will need to use the `-o`* flag. For example:
+By default the upload command won't upload files that have the same name as files already present in the upload area. If you do need to overwrite an uploaded file with a file of the same name, you will need to use the `-o` flag. For example:
 
 ```
-$ hca-util upload -o -f /path/to/file/sample1_R1.fastq.gz
+$ hca-util upload -o /path/to/file/sample1_R1.fastq.gz
 Uploading...
 /path/to/file/sample1_R1.fastq.gz 2845965046 / 2845965046.0  (100.00%)
 ```
 
 _**Notes:**_ 
 
-_* The `-o` flag needs to come before the `-f` OR after all the filenames._
-
 _* If you change your mind and wish to cancel the upload hit `ctrl` + `c` to cancel the upload._
 
-_* If there are sub-directories within a folder these will be ignored so please ensure all files to be uploaded are within the working directory._
+_* If there are sub-directories within a folder these will be ignored so please ensure all files to be uploaded are within provided path._
 
 ## Deleting files
 
 To delete files from your upload area use the `delete` command.
 
-To delete a single file or list of specified files, use the `delete` command with the `-f` flag.
+To delete a single file or list of specified files, use the `delete` command with the filename.
 
 ```
-hca-util delete -f <FILENAME>
+hca-util delete <FILENAME>
 ```
 
 For example:
 
 ```
-$ hca-util delete -f sample1_R1.fastq.gz
+$ hca-util delete sample1_R1.fastq.gz
 Deleting...
 Deleting 72ca5e3f-dacf-427a-a8a4-ecf15789006d/sample1_R1.fastq.gz  Done.
 ```
@@ -206,6 +220,7 @@ To delete all files in the selected area, use the `-a` flag with the `delete` co
 
 ```
 $ hca-util delete -a
+Confirm delete all contents from 72ca5e3f-dacf-427a-a8a4-ecf15789006d/? Y/y to proceed:
 Deleting...
 72ca5e3f-dacf-427a-a8a4-ecf15789006d/sample1_R2.fastq.gz
 72ca5e3f-dacf-427a-a8a4-ecf15789006d/sample2_R1.fastq.gz
@@ -217,11 +232,27 @@ $ hca-util list
 No item
 ```
 
-If you cannot delete files from your upload area but would like to, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org).
+If you cannot delete files from your upload area but would like to, please email wrangler-team@data.humancellatlas.org.
 
 ## Help!
 
-If you have any issues with uploading files or using the hca-util tool, please email [wrangler-team@data.humancellatlas.org](mailto:wrangler-team@data.humancellatlas.org).
+If you have any issues with uploading files or using the hca-util tool, please email wrangler-team@data.humancellatlas.org.
 
 Source code for tool can be found on github here: https://github.com/ebi-ait/hca-util
 
+## Updating the tool
+
+Periodically there will be updates to the tool to fix bugs and release new features. The latest version of the tool can be installed using the `upgrade` command.
+
+```
+$ pip3 install --upgrade --no-cache hca-util
+Successfully installed hca-util-0.2.3
+```
+We suggest using the no-cache flag in order to avoid issues relating to storing old packages.
+
+You can also check the version of the tool:
+
+```
+$ hca-util --version
+hca-util 0.2.3
+```
