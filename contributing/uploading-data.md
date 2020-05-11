@@ -55,7 +55,7 @@ pip3 install hca-util
 
 Once installed, you can see the available commands by typing the following command in your terminal. 
 
-```shell script
+```
 hca-util -h
 ```
 
