@@ -94,9 +94,7 @@ pip3 install hca-util
 
 You can now continue with configuring the tool.
 
-## Configuration
-
-
+## Configuring `hca-util`
 
 The first time you use the tool it will need to be configured. The configuration creates an AWS profile called `hca-util` that will give you the appropriate permissions to upload to your upload area. 
 
