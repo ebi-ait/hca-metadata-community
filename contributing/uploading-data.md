@@ -20,7 +20,7 @@ nav_order: 2
 
 1. Python3 installed on your computer
 1. Basic knowledge of how to navigate the command line and run commands in a terminal, e.g. `cd`, `ls`, `pwd`
-1. Credential information emailed to you by your wrangler. If you don't have the following information, please email wrangler-team@data.humancellatlas.org to obtain these credentials.
+1. Credential information emailed to you by your wrangler. If you don't have the following information, please email [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org) to obtain these credentials.
     1. A unique identifier that identifies your personal upload area. This should be kept secure and not shared with others outside your research group. e.g. `72ca5e3f-dacf-427a-a8a4-ecf15789006d`
     1. Your AWS access key e.g. `AKIAI44QH8DHBEXAMPLE`
     1. Your AWS secret key e.g. `je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY`. 
