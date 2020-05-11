@@ -31,6 +31,8 @@ If you are missing any of the prerequisites above, please contact [wrangler-team
 
 ## Installation
 
+### Checking Python 3 installation
+
 Check that you have Python 3 installed by opening a terminal and running the following command:
 
 ```
@@ -46,6 +48,9 @@ It should return the location of your Python 3 installation e.g.
 If nothing is returned it means you do not have Python 3 installed. 
 
 There are many tutorials online for installing python so please follow one that makes sense to you and suits your operating system or contact your system administrator for help. One example can be found here: [https://realpython.com/installing-python/](https://realpython.com/installing-python/)
+
+
+### Installing `hca-util` with pip
 
 Once you have installed Python 3, in your terminal run the following command to install `hca-util`
 
