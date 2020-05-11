@@ -27,7 +27,7 @@ nav_order: 2
 
     Keep these credentials safe and do not pass them to users who should not have access to upload files or see the files you have uploaded. In particular, do not record these credentials in any public place such as a public Github repository.
 
-If you are missing any of the prerequisites above, please contact wrangler-team@data.humancellatlas.org for guidance. 
+If you are missing any of the prerequisites above, please contact [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org) for guidance. 
 
 ## Installation
 
@@ -45,7 +45,7 @@ It should return the location of your Python 3 installation e.g.
 
 If nothing is returned it means you do not have Python 3 installed. 
 
-There are many tutorials online for installing python so please follow one that makes sense to you and suits your operating system or contact your system administrator for help. One example can be found here: https://realpython.com/installing-python/
+There are many tutorials online for installing python so please follow one that makes sense to you and suits your operating system or contact your system administrator for help. One example can be found here: [https://realpython.com/installing-python/](https://realpython.com/installing-python/)
 
 Once you have installed Python 3, in your terminal run the following command to install `hca-util`
 
@@ -232,13 +232,13 @@ $ hca-util list
 No item
 ```
 
-If you cannot delete files from your upload area but would like to, please email wrangler-team@data.humancellatlas.org.
+If you cannot delete files from your upload area but would like to, please email [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org).
 
 ## Help!
 
-If you have any issues with uploading files or using the hca-util tool, please email wrangler-team@data.humancellatlas.org.
+If you have any issues with uploading files or using the hca-util tool, please email [mailto:wrangler-team@data.humancellatlas.org](wrangler-team@data.humancellatlas.org).
 
-Source code for tool can be found on github here: https://github.com/ebi-ait/hca-util
+Source code for tool can be found on github here: [https://github.com/ebi-ait/hca-util](https://github.com/ebi-ait/hca-util)
 
 ## Updating the tool
 
