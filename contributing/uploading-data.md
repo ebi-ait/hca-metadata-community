@@ -5,7 +5,7 @@ parent: Contributing data
 nav_order: 2
 ---
 
-# Uploading data with hca-util
+# Uploading data with `hca-util`
 {: .no_toc }
 
 ## Table of contents
@@ -245,7 +245,7 @@ If you have any issues with uploading files or using the hca-util tool, please e
 
 Source code for tool can be found on github here: [https://github.com/ebi-ait/hca-util](https://github.com/ebi-ait/hca-util)
 
-## Updating the tool
+## Updating `hca-util`
 
 Periodically there will be updates to the tool to fix bugs and release new features. The latest version of the tool can be installed using the `upgrade` command.
 
