@@ -9,7 +9,7 @@ nav_order: 3
 
 ## 10X example
 
-To download examples of the spreadsheet we use to collect metadata, please click either of the buttons below.
+To download examples of the spreadsheets we use to collect metadata, please click either of the buttons below.
 
 [<i class="fas fa-download"></i> Download filled 10X example spreadsheet](https://github.com/ebi-ait/hca-metadata-community/raw/gh-pages/assets/ssheets/filled_example_10x.xlsx){: .btn .btn-green }
 
