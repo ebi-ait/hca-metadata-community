@@ -41,6 +41,7 @@ Each of these **entities** has a separate tab in the spreadsheet.
 Each row in each tab corresponds to one instance of the entity described by the tab
 name. For example, in the `Donor organism` tab, each row describes one
 donor. In the `Sequence file` tab, each row describes one sequence file.
+The same applies for the `Analysis file` tab.
 Only one row in the `Project` tab should be filled in to describe the
 whole project.
 
@@ -89,6 +90,7 @@ Every data or supplementary file associated with your project requires an entry 
 one of the following tabs:
 
   - `Sequence file`
+  - `Analysis file`
   - `Image file`
   - `Supplementary file`
 
@@ -119,6 +121,8 @@ Biomaterial and file entities.
   - `Library preparation protocol` - used in sequencing experiments to describe how the
   sequencing library was prepared
   - `Sequencing protocol` - used in sequencing experiments to describe how the library was sequenced
+  - `Analysis protocol` - used in sequencing experiments to describe how the count matrices/expression 
+  analysis were generated
 
 ## How to link entities
 
@@ -131,7 +135,9 @@ the **Donor organism** tab and `COLLECTION PROTOCOL ID` in the
 Similarly, the `FILE NAME` columns in the File tabs are unique identifiers 
 for each row in that tab. Values in these columns must be unique within 
 the spreadsheet. These unique identifiers are used in multiple tabs to link 
-entities together.
+entities together. Please note that files can only be linked to biomaterials, 
+so `Analysis files` need to be linked with the biomaterial closest to the
+generation of the file (Usually a `Cell suspension`).
 
 For example, consider an experiment with entities that are linked as
 follows:
@@ -235,6 +241,17 @@ indicates that files file100\_R1.fastq.gz and file101\_R1.fastq.gz were
 both generated from the same library preparation, and files
 file102\_R1.fastq.gz and file103\_R1.fastq.gz were both generated from a
 different library preparation.
+
+## How to link more than one entity in a cell
+If one entity (e.g. `analysis file`) derives from multiple entities of 
+the same type (e.g. multiple `cell suspension`), this can be indicated 
+in the spreadsheet by adding the `||` separator.
+
+![Multiple links](../assets/images/spreadsheet_quickguide/multiple_linkings.png)
+
+In this example, we have linked several cell suspensions by their ID 
+(`GSM3841608`,`GSM3841609`,`GSM3841610` and `GSM3841611`) to the 
+`analysis file` with ID `GSE132065_P2568.tsv.gz`
 
 ## Example spreadsheets
 
