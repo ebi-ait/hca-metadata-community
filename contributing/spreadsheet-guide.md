@@ -208,11 +208,11 @@ You can then follow the same process for linking other protocols, such as the
 to describe the process between `Cell suspension` and `Sequence file`.
 
 In the `Library preparation protocol` tab, fill in details about the library preparation 
-protocol.
+protocol. You may find the parameters to fill for some well known technologies [here](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/technology_types_table.html#library-preparation-protocol-parameters).
 
 ![Library preparation tab](../assets/images/spreadsheet_quickguide/library_preparation_protocol_tab.png)
 
-In the `Sequencing protocol` tab, fill in details about how the library was sequenced
+In the `Sequencing protocol` tab, fill in details about how the library was sequenced. You may find the parameters to fill for some well known technologies [here](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/technology_types_table.html#sequencing-protocol-parameters).
 
 ![Sequencing protocol tab](../assets/images/spreadsheet_quickguide/sequencing_protocol_tab.png)
 
@@ -261,6 +261,13 @@ To see fully worked examples of filled in spreadsheets for a 10X and SmartSeq2 e
 [<i class="fas fa-download"></i> Download 10X example spreadsheet](https://github.com/ebi-ait/hca-metadata-community/raw/gh-pages/assets/ssheets/Empty_example_10x.xlsx){: .btn .btn-green }
 
 [<i class="fas fa-download"></i> Download SS2 example spreadsheet](https://github.com/ebi-ait/hca-metadata-community/raw/gh-pages/assets/ssheets/Empty_example_SS2.xlsx){: .btn .btn-green }
+
+## Additional guidelines on how to curate specific technologies
+
+For technologies like Visium, scATAC-seq and CITE-seq, we have specified [overview and curation guidelines](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/technology_types_guide.html).
+- Visium: [overview](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/10X_Visium/Overview.html) and [guide](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/10X_Visium/Curation_guidelines.html)
+- scATAC-seq: [overview](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/scATAC-seq/Overview.html) and [guide](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/scATAC-seq/Curation_guidelines.html)
+- CITE-seq: [overview](CITE-seq - Cellular Indexing of Transcriptomes and Epitopes by Sequencing) and [guide](https://ebi-ait.github.io/hca-ebi-wrangler-central/technology_types_guide/CITE_seq/Curation_guidelines.html)
 
 ## Additional resources about HCA metadata
 
